@@ -5,12 +5,12 @@ xyz(){
     echo second arguent $2
     echo number of arguments $*
     echo all arguments $#
-    a = 100
+    a=100
     echo value of a = $a
-    b = 300
+    b=300
 }
 
-a = 200
+a=200
 xyz 123 456
 echo value of b = $b
 
