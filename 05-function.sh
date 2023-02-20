@@ -1,20 +1,19 @@
-xyz(){
+## Declare a function
 
-    echo hello from function
-    echo first argument $1
-    echo second arguent $2
-    echo number of arguments $*
-    echo all arguments $#
-    a=100
-    echo value of a = $a
-    b=300
-    echo value of b = $b
+xyz() {
+  echo Hello from Function
+  echo First Argument - $1
+  echo Second Argument -- $2
+  echo All Arguments - $*
+  echo No of Arguments - $#
+  a=300
+  echo Value of a = $a
+  b=200
 }
 
-a=200
-b=250
-echo value of a = $a
-echo value of b = $b
+## Main Program
+## Call a function
+a=120
 xyz 123 456
-echo value of b = $b
+echo Value of b - $b
 
